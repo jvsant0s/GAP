@@ -1,0 +1,7 @@
+{
+  "name": "Cenaplay",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
