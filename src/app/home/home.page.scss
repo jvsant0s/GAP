@@ -1,0 +1,67 @@
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+.nome-preco  {
+  
+ // text-align: end;
+  margin-left: 0%;
+
+
+}
+
+.nome-preco2  {
+  
+  // text-align: end;
+   margin-left: 0%;
+ 
+ 
+ }
+
+.usuario {
+  align-items: flex-end;
+  justify-content: flex-end;
+ display: flex;
+ max-width: fit-content;
+  margin: auto;
+}
+
+.toolbar {
+  padding: 1.5%;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*
+.slide {
+  background-image: url("../../../");
+}
+
+*/
