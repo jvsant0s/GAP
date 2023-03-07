@@ -1,9 +1,50 @@
-<ion-header>
+<div>
+  <ion-header>
   <ion-toolbar>
-    <ion-title>acc</ion-title>
-  </ion-toolbar>
-</ion-header>
 
-<ion-content>
+    <div class="toolbar">
+      <ion-img [routerLink]="['/acc']" src="../../../assets/Imagens/cena2.png" class="rounded"></ion-img><ion-title>CenaPlay</ion-title>
+
+  
+  <ion-chip class="usuario">
+    <ion-avatar>
+      <img alt="Silhouette of a person's head" src="../../../assets/Imagens/user1.png" />
+    </ion-avatar>
+    <ion-label [routerLink]="['/acc']">Usuario</ion-label>
+  </ion-chip>
+</div>
+
+</ion-toolbar>
+</ion-header>
+</div>
+
+<ion-content padding class="background">
+
+  <ion-text color="light"><h1>Lançamentos</h1></ion-text>
+<ion-grid>
+  <ion-row>
+
+    <ion-col size="12" size-sm="3"><ion-img [routerLink]="['/adao']" src="../../assets/Imagens/Adao.jpg" class="rounded" width="10%" height="10%"></ion-img><br><ion-text color="light"><h5 class="nome-preco">Adão Negro <br> R$14,90</h5></ion-text></ion-col>
+    <ion-col size="12" size-sm="3"><ion-img [routerLink]="['/queda']" src="../../assets/Imagens/Queda.png" class="rounded" width="10%" height="10%"></ion-img><br><ion-text color="light"><h5 class="nome-preco">A Queda <br> R$14,90</h5></ion-text></ion-col>
+    <ion-col size="12" size-sm="3"><ion-img [routerLink]="['/rei']" src="../../assets/Imagens/Rei.jpg" class="rounded" width="10%" height="10%"></ion-img><br><ion-text color="light"><h5 class="nome-preco">A Mulher Rei <br> R$11,90</h5></ion-text></ion-col>
+    <ion-col size="12" size-sm="3"><ion-img [routerLink]="['/top']" src="../../assets/Imagens/Top.png" class="rounded" width="10%" height="10%"></ion-img><br><ion-text color="light"><h5 class="nome-preco">Top Gun: Marverick <br> R$14,90</h5></ion-text></ion-col>
+  </ion-row>
+  <div>
+    <ion-text color="light"><label><h2>Em Alta </h2></label></ion-text>
+    <ion-row>
+      <ion-col size="12" size-sm="3"><ion-img [routerLink]="['/tudo']" src="../../assets/Imagens/Tudo.jpg" class="rounded" width="10%" height="10%"></ion-img><br><ion-text color="light"><h5 class="nome-preco2">Tudo Em Todo Lugar <br> Ao Mesmo Tempo <br> R$11,90</h5></ion-text></ion-col>
+      <ion-col size="12" size-sm="3"><ion-img [routerLink]="['/doutor']" src="../../assets/Imagens/Doutor.jpg" class="rounded" width="10%" height="10%"></ion-img><br><ion-text color="light"><h5 class="nome-preco2">Doutor Estranho <br> No Multiverso Da Loucura <br> R$14,90</h5></ion-text></ion-col>
+      <ion-col size="12" size-sm="3"><ion-img [routerLink]="['/uncharted']" src="../../assets/Imagens/Uncharted.jpg" class="rounded" width="10%" height="10%"></ion-img><br><ion-text color="light"><h5 class="nome-preco2">Uncharted <br> Fora do Mapa <br> R$8,90</h5></ion-text></ion-col>
+      <ion-col size="12" size-sm="3"><ion-img [routerLink]="['/thor']" src="../../assets/Imagens/Thor.jpg" class="rounded" width="10%" height="10%"></ion-img><br><ion-text color="light"><h5 class="nome-preco2">Thor <br> Amor e Trovão <br> R$14,90</h5></ion-text></ion-col>
+    </ion-row>
+  </div>
+</ion-grid>
+
 
 </ion-content>
+
+
+
+<ion-footer>
+
+</ion-footer>

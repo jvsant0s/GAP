@@ -47,6 +47,14 @@ const routes: Routes = [
     path: 'acc',
     loadChildren: () => import('./pages/acc/acc.module').then( m => m.AccPageModule)
   },
+  {
+    path: 'compra',
+    loadChildren: () => import('./pages/compra/compra.module').then( m => m.CompraPageModule)
+  },
+  {
+    path: 'finalizada',
+    loadChildren: () => import('./pages/finalizada/finalizada.module').then( m => m.FinalizadaPageModule)
+  },
 ];
 
 @NgModule({

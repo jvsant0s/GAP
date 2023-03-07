@@ -3,7 +3,7 @@
   <ion-toolbar>
 
     <div class="toolbar">
-    <ion-title [routerLink]="['/home']">CenaPlay</ion-title>
+      <ion-img [routerLink]="['/acc']" src="../../../assets/Imagens/cena2.png" class="rounded"></ion-img><ion-title>CenaPlay</ion-title>
 
   
 </div>
@@ -12,16 +12,16 @@
 </ion-header>
 </div>
 
-<ion-content>
+<ion-content padding class="background">
 
-<h1>A Mulher Rei</h1>
+  <ion-text color="light"><h1>A MULHER REI</h1></ion-text>
 <ion-grid>
 
 <div style=" text-align: start; justify-content: start;">
   <ion-row>
     <ion-col size="12" size-sm="6"><iframe width="900" height="600" src="https://www.youtube.com/embed/IK1sEiHodZg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></ion-col>
-    <ion-col size="12" size-sm="6"><h3>Sobre este filme:<br>A Mulher Rei acompanha Nanisca (Viola Davis) que foi uma comandante do exército do Reino de Daomé, um dos locais mais poderosos da África nos séculos XVII e XIX. Durante o período, o grupo militar era composto apenas por mulheres que, juntas, combateram os colonizadores franceses, tribos rivais e todos aqueles que tentaram escravizar seu povo e destruir suas terras. Conhecidas como Agojie, o grupo foi criado por conta de sua população masculina enfrentar altas baixas na violência e guerra cada vez mais frequentes com os estados vizinhos da África Ocidental, o que levou Dahomey a ser forçado a dar anualmente escravos do sexo masculino, particularmente ao Império Oyo, que usou isso para troca de mercadorias como parte do crescente fenômeno do comércio de escravos na África Ocidental durante a Era dos Descobrimentos, o que fez com que mulheres fossem alistadas para o combate.</h3>
-      <h3>Elenco:<br>Viola Davis, Thuso Mbedu, Lashana Lynch</h3><ion-button color="success">Comprar</ion-button></ion-col>
+    <ion-col size="12" size-sm="6"><ion-text color="light"><h3>Sobre este filme:<br>A Mulher Rei acompanha Nanisca (Viola Davis) que foi uma comandante do exército do Reino de Daomé, um dos locais mais poderosos da África nos séculos XVII e XIX. Durante o período, o grupo militar era composto apenas por mulheres que, juntas, combateram os colonizadores franceses, tribos rivais e todos aqueles que tentaram escravizar seu povo e destruir suas terras. Conhecidas como Agojie, o grupo foi criado por conta de sua população masculina enfrentar altas baixas na violência e guerra cada vez mais frequentes com os estados vizinhos da África Ocidental, o que levou Dahomey a ser forçado a dar anualmente escravos do sexo masculino, particularmente ao Império Oyo, que usou isso para troca de mercadorias como parte do crescente fenômeno do comércio de escravos na África Ocidental durante a Era dos Descobrimentos, o que fez com que mulheres fossem alistadas para o combate.</h3></ion-text>
+      <ion-text color="light"><h3>Elenco:<br>Viola Davis, Thuso Mbedu, Lashana Lynch</h3></ion-text><ion-button [routerLink]="['/compra']" color="success">Comprar</ion-button></ion-col>
     </ion-row>
     
     </div>

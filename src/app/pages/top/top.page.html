@@ -3,7 +3,7 @@
   <ion-toolbar>
 
     <div class="toolbar">
-    <ion-title [routerLink]="['/home']">CenaPlay</ion-title>
+      <ion-img [routerLink]="['/acc']" src="../../../assets/Imagens/cena2.png" class="rounded"></ion-img><ion-title>CenaPlay</ion-title>
 
   
 </div>
@@ -12,16 +12,16 @@
 </ion-header>
 </div>
 
-<ion-content>
+<ion-content padding class="background">
 
-<h1>Top Gun: Marverick</h1>
+  <ion-text color="light"><h1>TOP GUN: MARVERICK</h1></ion-text>
 <ion-grid>
 
 <div style=" text-align: start; justify-content: start;">
   <ion-row>
     <ion-col size="12" size-sm="6"><iframe width="900" height="600" src="https://www.youtube.com/embed/7aOCYTflp8o" title="Top Gun - Maverick |  Novo Trailer EXCLUSIVO Dublado" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></ion-col>
-    <ion-col size="12" size-sm="6"><h3>Sobre este filme:<br>Na sequência de Top Gun: Ases Indomáveis, acompanhamos a história de Pete “Maverick” Mitchell (Tom Cruise), um piloto à moda antiga da Marinha que coleciona muitas condecorações, medalhas de combate e grande reconhecimento pela quantidade de aviões inimigos abatidos nos últimos 30 anos. Entretanto, nada disso foi suficiente para sua carreira decolar, visto que ele deixou de ser um capitão e tornou-se um instrutor. A explicação para esse declínio é simples: Ele continua sendo o mesmo piloto rebelde de sempre, que não hesita em romper os limites e desafiar a morte. Nesta nova aventura, Maverick precisa provar que o fator humano ainda é fundamental no mundo contemporâneo das guerras tecnológicas.</h3>
-      <h3>Elenco:<br>Tom Cruise, Miles Teller, Jennifer Connelly</h3><ion-button color="success">Comprar</ion-button></ion-col>
+    <ion-col size="12" size-sm="6"><ion-text color="light"><h3>Sobre este filme:<br>Na sequência de Top Gun: Ases Indomáveis, acompanhamos a história de Pete “Maverick” Mitchell (Tom Cruise), um piloto à moda antiga da Marinha que coleciona muitas condecorações, medalhas de combate e grande reconhecimento pela quantidade de aviões inimigos abatidos nos últimos 30 anos. Entretanto, nada disso foi suficiente para sua carreira decolar, visto que ele deixou de ser um capitão e tornou-se um instrutor. A explicação para esse declínio é simples: Ele continua sendo o mesmo piloto rebelde de sempre, que não hesita em romper os limites e desafiar a morte. Nesta nova aventura, Maverick precisa provar que o fator humano ainda é fundamental no mundo contemporâneo das guerras tecnológicas.</h3></ion-text>
+      <ion-text color="light"><h3>Elenco:<br>Tom Cruise, Miles Teller, Jennifer Connelly</h3></ion-text><ion-button [routerLink]="['/compra']" color="success">Comprar</ion-button></ion-col>
     </ion-row>
     
     </div>

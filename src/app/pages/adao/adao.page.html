@@ -3,7 +3,7 @@
   <ion-toolbar>
 
     <div class="toolbar">
-    <ion-title [routerLink]="['/home']">CenaPlay</ion-title>
+      <ion-img [routerLink]="['/acc']" src="../../../assets/Imagens/cena2.png" class="rounded"></ion-img><ion-title>CenaPlay</ion-title>
 
   
 </div>
@@ -12,16 +12,16 @@
 </ion-header>
 </div>
 
-<ion-content>
+<ion-content padding class="background">
 
-<h1>Adao Negro</h1>
+  <ion-text color="light"><h1>ADAO NEGRO</h1></ion-text>
 <ion-grid>
 
 <div style=" text-align: start; justify-content: start;">
   <ion-row>
     <ion-col size="12" size-sm="6"><iframe width="900" height="600" src="https://www.youtube.com/embed/I3CpaqCK9B0" title="Adão Negro | Trailer Oficial Legendado" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></ion-col>
-    <ion-col size="12" size-sm="6"><h3>Sobre este filme:<br> Quase 5.000 anos depois de receber os poderes dos deuses e de ser aprisionado em seguida, Adão Negro (Johnson) se liberta, pronto para aplicar sua justiça peculiar ao mundo moderno.</h3>
-      <h3>Elenco:<br> Dwayne The Rock Johnson, Aldis Hodge, Noah Centineo, Sarah Shahi, Marwan Kenzari, Quintessa Swindell, Pierce Brosnan</h3><ion-button color="success">Comprar</ion-button></ion-col>
+    <ion-col size="12" size-sm="6"><ion-text color="light"><h3>Sobre este filme:<br> Quase 5.000 anos depois de receber os poderes dos deuses e de ser aprisionado em seguida, Adão Negro (Johnson) se liberta, pronto para aplicar sua justiça peculiar ao mundo moderno.</h3></ion-text>
+      <ion-text color="light"><h3>Elenco:<br> Dwayne The Rock Johnson, Aldis Hodge, Noah Centineo, Sarah Shahi, Marwan Kenzari, Quintessa Swindell, Pierce Brosnan</h3></ion-text><ion-button [routerLink]="['/compra']" color="success">Comprar</ion-button></ion-col>
     </ion-row>
     
     </div>

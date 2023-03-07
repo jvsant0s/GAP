@@ -1,0 +1,12 @@
+.toolbar {
+    padding: 1.5%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  ion-content.background{
+    --ion-background-color:black;
+}
